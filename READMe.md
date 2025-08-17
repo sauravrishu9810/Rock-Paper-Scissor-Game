@@ -1,0 +1,3 @@
+# This is a rock paper scissor game Using JS 
+
+I created this Rock, Paper, Scissors game using JavaScript as a fun and simple project. In the game, I can choose between rock, paper, or scissors, while the computer randomly generates its choice. The program then compares both selections and declares the winner based on the classic rules: rock beats scissors, scissors cut paper, and paper covers rock. The results are displayed instantly, making the game interactive and exciting. Building this helped me practice JavaScript concepts like event handling, conditionals, random number generation, and DOM manipulation, while also enjoying a quick, entertaining experience right in the browser.
