@@ -1,65 +1,92 @@
-
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 
-
-h1{
-    background-color: rgb(58, 52, 52);
-    height: 100px;
-    color: antiquewhite;
-    text-align: center;
-    padding-top:20px;
-    font-size: 40px;
-    text-shadow: 1px 2px #a56e6e;
-    text-decoration:underline;
-    text-underline-offset:11px;
-    transition: all 1s ease-in;
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  /* line-height: 5rem; can be used also  */
+  padding-top: 20px;
+  transition: all 1s ease-in;
+  text-shadow: 1px 1px 2px rgb(48, 45, 45);
 }
 
 h1:hover{
-    color: rgb(193, 42, 67);
-    letter-spacing:1.5px;
-}
-
-
-img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
+    letter-spacing: 2cap;
+    font-size: 40px;
+    background-color: #a01b55;
+    color: #b4a0b9;
+    cursor: pointer;
     
 }
 
-.choice{
-    height: 100px;
-    width:150px;
-    border-radius: 50%;
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #b4a0b9;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+
+.score-board{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items:center;
+    gap: 8rem;
+    margin-top:50px;
+    font-size: 30px;
+
 }
 
-.choices{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:3rem;
-    margin-top: 80px;
+#user-score , #computer-score{
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom:1.7rem;
 }
 
 
+.msg-container{
+    margin-top:5em;
 
-.choice:hover{
-    opacity:0.5;
+}
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 1.5rem;
+    display:inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#msg:hover{
+    background-color: #a078d0;
+    font-weight: 600;
     cursor: pointer;
-    background-color: black;
     
-    
-
 }
-
