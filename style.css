@@ -11,16 +11,16 @@ h1 {
   height: 5rem;
   /* line-height: 5rem; can be used also  */
   padding-top: 20px;
-  transition: all 1s ease-in;
   text-shadow: 1px 1px 2px rgb(48, 45, 45);
+  transition: all 1s ease-in;
 }
 
 h1:hover{
-    letter-spacing: 2cap;
-    font-size: 40px;
-    background-color: #a01b55;
-    color: #b4a0b9;
-    cursor: pointer;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #a01b55;
+  color: #000000;
+  cursor: pointer;
     
 }
 
@@ -79,7 +79,7 @@ img {
     background-color: #081b31;
     color: white;
     font-size: 1.5rem;
-    display:inline;
+    display:inline; /* to inshort the line */
     padding: 1rem;
     border-radius: 1rem;
 }
